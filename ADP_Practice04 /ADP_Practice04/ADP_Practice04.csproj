@@ -27,6 +27,7 @@
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resources.Designer.cs</LastGenOutput>
         </EmbeddedResource>
+        <EmbeddedResource Remove="ADP_Practice04\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -35,6 +36,11 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <Compile Remove="ADP_Practice04\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ADP_Practice04\**" />
     </ItemGroup>
 
 </Project>
